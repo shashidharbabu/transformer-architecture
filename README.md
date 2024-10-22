@@ -2,6 +2,12 @@
 
 This project involves implementing the Transformer architecture using PyTorch. The Transformer is a model commonly used for machine translation, text generation, and other tasks.
 
+
+## Architecture
+
+![Screenshot 2024-10-22 at 15 50 24](https://github.com/user-attachments/assets/09084b0b-be0c-4794-b38e-9ee1ae060ffe)
+
+
 ## Features
 - **Self-Attention**: Mechanism to allow the model to focus on different parts of the input sequence.
 - **Multi-Head Attention**: Multiple attention heads process different parts of the input simultaneously.
@@ -47,3 +53,7 @@ print(output.shape)
 
 ## Model Overview
 The model consists of an encoder and decoder, each built with layers of self-attention and feed-forward networks. It processes sequences to generate translations or other sequence-based outputs.
+
+## Resources:
+Paper: https://arxiv.org/abs/1706.03762
+
